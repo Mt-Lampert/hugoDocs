@@ -15,6 +15,8 @@ sections_weight: 02
 draft: false
 ---
 
+**A word of Warning:** At the moment, only an "extended" Hugo version will support SCSS/SASS transformation. In case you run into problems following the content of this page, check your Hugo version using `$ hugo version`. You should find `/extended` after the version number. If not, check out https://gohugo.io/getting-started/installing/ for some update, if necessary.
+
 
 Any SASS or SCSS file can be transformed into a CSS file using `resources.ToCSS` which takes two arguments, the resource object and a map of options listed below.
 
